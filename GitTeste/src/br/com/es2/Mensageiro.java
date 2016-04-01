@@ -11,4 +11,9 @@ public class Mensageiro {
 	public void exibeMensagem(){
 		System.out.println(mensagem);
 	}
+	
+	public void exibeOutraMensagem(){
+		System.out.println("Outra mensagem: " + mensagem);
+	}
+	
 }
